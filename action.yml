@@ -1,4 +1,4 @@
-name: 'Go mod'
+name: 'Check for unused Golang imports'
 author: 'Jérôme Pogeant'
 description: 'Check if there is any unused imports using go mod'
 outputs:
