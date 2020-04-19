@@ -1,0 +1,12 @@
+name: 'Go mod'
+author: 'Jérôme Pogeant'
+description: 'Check if there is any unused imports using go mod'
+outputs:
+  gomod-output:
+    description: 'The go mod command output if fail'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'check-circle'
+  color: 'green'
